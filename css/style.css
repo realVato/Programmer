@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Typography */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 30px;
+    background-color: #000;
+    z-index: 99;
+}
+
+/* Video showcase */
+.video {
+    position: relative;
+    height: 100vh;
+}
+
+.video-showcase {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgb(42, 43, 44);
+    opacity: 0.8;
+}
+
+.video-text {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 1rem;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+}
+
+.video-text .transition-btn {
+    margin-top: 50px;
+}
+
