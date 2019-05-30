@@ -90,6 +90,7 @@ h2 {
 
 /* Notification */
 .notification {
+    border-top: 7px solid #000;
     background-color: rgb(189, 46, 46);
     color: #fff;
 }
@@ -119,6 +120,38 @@ h2 {
     padding: 15px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+/* Gallery */
+.gallery {
+    border-bottom: 7px solid rgb(189, 46, 46);
+}
+
+.gallery .row {
+    display: flex;
+    width: 100%;
+}
+
+.gallery .row .product {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.gallery .row .product:nth-child(even) {
+    background-color: rgb(83, 81, 81);
+}
+
+.gallery .row .product div:nth-child(2) {
+    padding: 20px;
+}
+
+.gallery .row .product img {
+    display: block;
+    max-width: 100%;
 }
 
 /* Footer */
