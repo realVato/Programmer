@@ -254,3 +254,24 @@ h2 {
     text-align: center;
     padding: 10px 0px;
   }
+
+/* Media Query */
+@media (max-width: 780px) {
+    .gallery .row {
+        display: block;
+    }
+
+    .about-us .wrapper .grid-2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-height: 400px) {
+    .video-text {
+        margin-top: 45px;
+    }
+
+    .video-text .transition-btn {
+        margin-top: 15px;
+    }
+}
