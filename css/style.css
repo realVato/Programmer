@@ -225,6 +225,28 @@ h2 {
     padding: 25px;
 }
 
+/* Follow-us */
+.follow-us {
+    background-color: rgb(189, 46, 46);
+    color: #fff;
+}
+
+.follow-us .wrapper {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.follow-us .wrapper .follow-links {
+    display: flex;
+    justify-content: center;
+}
+
+.follow-us .wrapper .follow-links div {
+    margin: 10px;
+}
+
 /* Footer */
 .copyright {
     background-color: #000;
