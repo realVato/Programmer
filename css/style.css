@@ -26,6 +26,11 @@ body {
     transition: .5s;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* Typography */
 a {
     text-decoration: none;
@@ -166,9 +171,58 @@ h2 {
     padding: 20px;
 }
 
-.gallery .row .product img {
-    display: block;
-    max-width: 100%;
+/* About-us */
+.about-us {
+    background-color: rgb(42, 43, 44);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.about-us .wrapper {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.about-us .wrapper hr {
+    width: 25%;
+    margin: auto;
+    color: rgb(189, 46, 46);
+}
+
+.about-us .wrapper p {
+    margin: 8px 0;
+}
+
+.about-us .wrapper .grid-2 {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 25px;
+}
+
+.about-us .wrapper .grid-2 img {
+    border-radius: 15px;
+}
+
+.about-us .wrapper .grid-2 .grid-2-image a {
+    display: inline-block;
+    background-color: rgb(189, 46, 46);
+    color: #fff;
+    padding: 10px 35px;
+    margin: 25px 0 0 0;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.about-us .wrapper .grid-2 .grid-2-image a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.about-us .wrapper .grid-2 .grid-2-description {
+    text-align: left;
+    padding: 25px;
 }
 
 /* Footer */
